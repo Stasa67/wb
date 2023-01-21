@@ -9,7 +9,7 @@ html {
  .violet-header {
     background: linear-gradient(90deg, #cb11ab 0, #481173 100%);
     padding: 0 32px;
-    color: white;
+    color: #FFFFFF;
  }
 
 
@@ -55,7 +55,7 @@ html {
  }
 
  .free:hover {
-    color: white;
+    color: #FFFFFF;
  }
 
  .sell {
@@ -89,7 +89,7 @@ html {
  }
  
  .header-btn:hover {
-    color: white;
+    color: #FFFFFF;
  }
  
  .violet-bottom {
@@ -107,7 +107,7 @@ html {
  .icon-burger:hover {
     cursor: pointer;
     font-size: 40px;
-    color: white;
+    color: #FFFFFF;
  }
 
  .violet-bottom__burger-container {
@@ -129,7 +129,7 @@ html {
     white-space: nowrap;
     position: relative;
     background-color: rgba(240, 231, 240, 0.2);
-    color: white;
+    color: #FFFFFF;
     width: 47%;
     padding: 14px 120px 16px 44px;
     margin: 0;
@@ -138,7 +138,7 @@ html {
  }
 
  .search-input::placeholder {
-    color: white;
+    color: #FFFFFF;
  }
  
  .violet-bottom__container {
@@ -154,7 +154,7 @@ html {
  }
 
  .violet-bottom__container__address:hover {
-    color: white;
+    color: #FFFFFF;
  }
 
  .violet-bottom__container__come {
@@ -172,7 +172,7 @@ html {
  }
 
  .violet-bottom__container__basket:hover {
-    color: white;
+    color: #FFFFFF;
  }
  .container-addres {
     display: flex;
@@ -199,7 +199,7 @@ html {
     margin: 0 auto;
     width: 1476px;
  }
- 
+
  .main-header-hight {
     display: block;
     padding: 22px
