@@ -163,7 +163,7 @@ html {
  }
 
  .violet-bottom__container__come:hover {
-    color: white;
+    color: #FFFFFF;
  }
 
  .violet-bottom__container__basket {
@@ -194,10 +194,12 @@ html {
     align-items:center;
     margin-right: 24px;  
  }
+
  .main-header {
     margin: 0 auto;
     width: 1476px;
  }
+ 
  .main-header-hight {
     display: block;
     padding: 22px
@@ -286,4 +288,3 @@ html {
     font-size: 18px;
     color: #FFFFFF;
  }
- 
