@@ -4,10 +4,10 @@ html {
 
  body {
     margin: 0;
+    background: linear-gradient(0deg, #481173, #c811aa);
  }
 
  .violet-header {
-    background: linear-gradient(90deg, #cb11ab 0, #481173 100%);
     padding: 0 32px;
     color: #FFFFFF;
  }
@@ -196,8 +196,11 @@ html {
  }
 
  .main-header {
+    border-radius: 26px;
+    padding: 50px 0;
     margin: 0 auto;
     width: 1476px;
+    background-color: #FFFFFF;
  }
 
  .main-header-hight {
@@ -251,35 +254,31 @@ html {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     font-size: 14px;
-    padding: 54px 0;
     gap: 40px;
  }
 
  .cards-picture{
-    border-radius: 16px;
-    border: 2px solid rgba(190, 174, 185, 0.75);
     cursor: pointer;
-    border-radius: 14px;
     width: 100%;
  }
 
  .product-cards_price-now {
     font-size: medium;
+    padding-left: 12px;
  }
 
  .footer {
     position: relative;
-    padding-top: 68px ;
-    margin: 48px 0 0;
+    width: 1476px;
+    margin: 0 auto;
  }
 
  .footer-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
     padding: 36px;
-    background: #481173;
     color: rgba(255, 255, 255, 0.625);
     cursor: default;
  }
@@ -287,4 +286,30 @@ html {
  .caption-buyers {
     font-size: 18px;
     color: #FFFFFF;
+ }
+
+ .products_cards-picture {
+    display: flex;
+    align-items: center;
+    width: 168px;
+    height: 170px;
+    border-radius: 16px;
+    overflow: hidden;
+ }
+
+ .products_cards-description {
+    padding-left: 12px;
+ }
+
+ .footer-list {
+    padding: 0;
+    list-style: none;
+ }
+
+ .footer-list__iten {
+    cursor: pointer;
+ }
+
+ .footer-list__iten:hover {
+    color: #FFFFFF
  }
