@@ -107,7 +107,7 @@ html {
  .icon-burger:hover {
     cursor: pointer;
     font-size: 40px;
-    color:white;
+    color: white;
  }
 
  .violet-bottom__burger-container {
@@ -128,7 +128,7 @@ html {
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
-    background-color: rgb(240 231 240 / 20%);
+    background-color: rgba(240, 231, 240, 0.2);
     color: white;
     width: 47%;
     padding: 14px 120px 16px 44px;
@@ -137,7 +137,7 @@ html {
     border: none;
  }
 
- .search-input::-webkit-input-placeholder {
+ .search-input::placeholder {
     color: white;
  }
  
@@ -259,7 +259,6 @@ html {
     cursor: pointer;
     border-radius: 14px;
     width: 100%;
-    
  }
 
  .product-cards_price-now {
@@ -287,3 +286,4 @@ html {
     font-size: 18px;
     color: #FFFFFF;
  }
+ 
